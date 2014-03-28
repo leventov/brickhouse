@@ -87,7 +87,7 @@ public abstract class CreateWithPrimitive {
 					return settableOI.create((String) o);
 				}
 			};
-		} else if (oi instanceof SettableTimestampObjectInspector) {
+		} /*else if (oi instanceof SettableTimestampObjectInspector) {
 			final SettableTimestampObjectInspector settableOI =
 					(SettableTimestampObjectInspector) oi;
 			return new CreateWithPrimitive() {
@@ -107,7 +107,7 @@ public abstract class CreateWithPrimitive {
 					return settableOI.create((byte[]) o);
 				}
 			};
-		} else {
+		} */else {
 			return null;
 		}
 	}

@@ -21,7 +21,7 @@ public class CollectMergeMaxUDAF extends AbstractCollectMergeUDAF {
 			put(FLOAT, FloatEvaluator.class);
 			put(DOUBLE, DoubleEvaluator.class);
 			put(STRING, ComparableEvaluator.class);
-			put(TIMESTAMP, ComparableEvaluator.class);
+//			put(TIMESTAMP, ComparableEvaluator.class);
 		}};
 	}
 
